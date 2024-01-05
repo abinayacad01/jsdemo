@@ -40,6 +40,7 @@ a=[12,15,10];
 console.log(typeof a);
 
 a={abi:"mano"};
+console.log(a);
 console.log(typeof a);
 
 a=20;
@@ -59,4 +60,21 @@ a=parseInt(a);
 console.log(typeof a);
 console.log(a);
 
- 
+
+var a=102378543567;
+var b=35235435677;
+console.log(a+b);
+
+console.log(a-b);
+
+console.log(a*b);
+
+console.log(a/b);
+
+console.log(a%b);
+
+console.log(a**b);
+
+console.log(++a);
+
+console.log(--b);
