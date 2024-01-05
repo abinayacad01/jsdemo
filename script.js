@@ -17,3 +17,46 @@ else
 {
     console.log(false);
 }
+
+a=25;
+console.log(typeof a);
+
+var a="abi";
+console.log(typeof a);
+
+a=true;
+console.log(typeof a);
+
+b=36;
+console.log(typeof b);
+
+b=false;
+console.log(typeof b);
+
+b=25.5;
+console.log(b+":"+typeof b);
+
+a=[12,15,10];
+console.log(typeof a);
+
+a={abi:"mano"};
+console.log(typeof a);
+
+a=20;
+a=a.toString();
+console.log(typeof a);
+console.log(a);
+
+b="fgjh";
+b=parseInt(b);
+console.log(typeof b);
+console.log(b);
+
+a=true;
+console.log(typeof a);
+
+a=parseInt(a);
+console.log(typeof a);
+console.log(a);
+
+ 
