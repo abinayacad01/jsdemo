@@ -77,4 +77,21 @@ console.log(a**b);
 
 console.log(++a);
 
-console.log(--b);
+console.log(--b); 
+
+let m=100;
+
+m+=100;
+console.log(m);
+
+m-=150;
+console.log(m);
+
+m*=2;
+console.log(m);
+
+m/=10;
+console.log(m);
+
+m%=3;
+console.log(m);
