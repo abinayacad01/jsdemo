@@ -95,3 +95,54 @@ console.log(m);
 
 m%=3;
 console.log(m);
+
+console.log(m>199);
+
+console.log(m<199);
+
+console.log(m==199);
+
+console.log(m!=199);
+
+console.log(m>=199);
+
+console.log(m<=199);
+
+console.log(m=="as");
+
+console.log(!(m=="199"));
+
+console.log(m==="as");
+
+console.log(m!=="as");
+
+console.log(m==10||m>10||m<10);
+
+console.log(m==10&&m>10&&m<10);
+
+var g="n";
+var output=g=="n"? "correct" : "wrong";
+console.log(output);
+
+var n=5;
+console.log(n);
+var output1=(4<=n && n<=6)? "wrong" :(7<=n && n<=10) ? "correct" : "none";
+console.log(output1);
+
+function none(){
+    var l=78;
+var output1=(40<=l && l<=69)? "wrong" :(79<=l && l<=100) ? "correct" : "none";
+console.log(output1);
+
+}
+
+none();
+
+function none1(p){
+var output1=(40<=p && p<=69)? "wrong" :(79<=p && p<=100) ? "correct" : "none";
+console.log(output1);
+
+}
+
+none1(90);
+
