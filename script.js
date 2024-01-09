@@ -158,4 +158,63 @@ var none4=(o,d)=>{
     var result1=(o==40)? "right" : (o==60)? "wrong": "other";
     console.log(result1,d);
 };
-console.log(none4(40,"hi!!"));
+none4(40,"hi!!");
+
+var sum=(w,q)=>{
+    return(w+q);
+};
+console.log("added value",sum(8,9));
+console.log("added value",sum(86,28));
+
+var result2=sum(6,7);
+console.log(result2);
+
+var sum1=(w,q)=>(w+q);
+console.log(sum1(4,5));
+
+function markcheck(m){
+    if(m<35)
+    {
+        console.log("fail");
+    }
+    else
+    {
+        console.log("passed");
+    }
+};
+
+markcheck(66);
+
+function markcheck1(m){
+    if(m<=35 && m>0)
+    {
+        console.log("fail");
+    }
+    else
+    {
+        if(m>35 && m<=60)
+        {
+        console.log("good");
+        }
+
+        else if(m>60 && m<=80)
+        {
+            console.log("very good");
+        }
+
+        else if (m>80 && m<=90)
+        {
+            console.log("well done");
+        }
+
+        else if(m>90 && m<=100)
+        {
+            console.log("excellent");
+        }
+        else{
+            console.log("not in range")
+        }
+}
+}
+
+markcheck1(prompt("enter mark"));
