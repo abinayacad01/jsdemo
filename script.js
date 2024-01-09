@@ -217,4 +217,59 @@ function markcheck1(m){
 }
 }
 
-markcheck1(prompt("enter mark"));
+markcheck1(50);
+
+
+function switchstmt(a1,b1,c1)
+{
+    // var a,b,c;
+    switch(c1){
+        case 1 :
+            console.log(a1+b1);
+            break;
+        case 2 :
+            console.log(a1-b1);
+            break;
+        case 3 :
+            console.log(a1*b1);
+            break;
+        case 4 :
+            console.log(a1/b1);
+            break;
+        default :
+            console.log(none);
+            }
+}
+switchstmt(10,30,3);
+
+let day;
+let date1 = new Date().getDate();
+let month = new Date().getMonth() +1;
+
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case  6:
+    day = "Saturday";
+    break;
+}
+
+console.log(day,date1,month);
+
+
