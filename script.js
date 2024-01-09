@@ -147,15 +147,15 @@ console.log(output1);
 none1(90);
 
 function none3(k,l){
-    var result=(k=40)? "yes" : (k=60)? "no": "other";
+    var result=(k==40)? "yes" : (k==60)? "no": "other";
     console.log(result,l);
 
 }
-none3(40,"hey");
+none3(60,"hey");
+
 
 var none4=(o,d)=>{
-    var result1=(o=40)? "yes" : (o=60)? "no": "other";
+    var result1=(o==40)? "right" : (o==60)? "wrong": "other";
     console.log(result1,d);
-
 };
-console.log(none4(62,"hey"));
+console.log(none4(40,"hi!!"));
