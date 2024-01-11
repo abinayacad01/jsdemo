@@ -272,3 +272,43 @@ switch (new Date().getDay()) {
 console.log(day,date1);
 
 
+ function getoutput()
+                     {
+                        var value1=document.getElementById("fname").value;
+                        var value2=document.getElementById("lname").value;
+                        document.getElementById("output").innerHTML= "hey "+ value1+" " + value2 + " !!";
+
+                     }
+                     
+    function operatorfun()
+                     {
+                        var value1=document.getElementById("v1").value;
+                        var value2=document.getElementById("v2").value;
+                         value1=Number(value1);
+                         value2=Number(value2);
+                        document.getElementById("sum").innerHTML="sum of "+ value1 + " and " + value2 + " is " + (value1+value2);
+
+                     }        
+                     
+     function multioperatorfun(a)
+                     {
+                        var value1=document.getElementById("val1").value;
+                        var value2=document.getElementById("val2").value;
+                         value1=Number(value1);
+                         value2=Number(value2);
+
+                         switch(a){
+                            case'+' :
+                               document.getElementById("result").innerHTML="sum of "+ value1 + " and " + value2 + " is " + (value1+value2);
+                               break;
+                          case'-' :
+                               document.getElementById("result").innerHTML="subraction of "+ value1 + " and " + value2 + " is " + (value1-value2);
+                               break;
+                         case'*' :
+                               document.getElementById("result").innerHTML="product of "+ value1 + " and " + value2 + " is " + (value1*value2);
+                               break;
+                         case'/' :
+                               document.getElementById("result").innerHTML="division of "+ value1 + " and " + value2 + " is " + (value1/value2);
+                               break;
+                                  }
+                     }                   
