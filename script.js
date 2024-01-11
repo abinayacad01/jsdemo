@@ -280,35 +280,46 @@ console.log(day,date1);
 
                      }
                      
-    function operatorfun()
-                     {
-                        var value1=document.getElementById("v1").value;
-                        var value2=document.getElementById("v2").value;
-                         value1=Number(value1);
-                         value2=Number(value2);
-                        document.getElementById("sum").innerHTML="sum of "+ value1 + " and " + value2 + " is " + (value1+value2);
-
-                     }        
+function operatorfun()
+{
+    var value1=document.getElementById("v1").value;
+    var value2=document.getElementById("v2").value;
+    value1=Number(value1);
+    value2=Number(value2);
+    document.getElementById("sum").innerHTML="sum of "+ value1 + " and " + value2 + " is " + (value1+value2);
+ }                            
                      
-     function multioperatorfun(a)
-                     {
-                        var value1=document.getElementById("val1").value;
-                        var value2=document.getElementById("val2").value;
-                         value1=Number(value1);
-                         value2=Number(value2);
+function multioperatorfun(a)
+ {
+    var value1=document.getElementById("val1").value;
+    var value2=document.getElementById("val2").value;
+    value1=Number(value1);
+    value2=Number(value2);
 
-                         switch(a){
-                            case'+' :
-                               document.getElementById("result").innerHTML="sum of "+ value1 + " and " + value2 + " is " + (value1+value2);
-                               break;
-                          case'-' :
-                               document.getElementById("result").innerHTML="subraction of "+ value1 + " and " + value2 + " is " + (value1-value2);
-                               break;
-                         case'*' :
-                               document.getElementById("result").innerHTML="product of "+ value1 + " and " + value2 + " is " + (value1*value2);
-                               break;
-                         case'/' :
-                               document.getElementById("result").innerHTML="division of "+ value1 + " and " + value2 + " is " + (value1/value2);
-                               break;
-                                  }
-                     }                   
+ switch(a){
+      case'+' :
+        document.getElementById("result").innerHTML="sum of "+ value1 + " and " + value2 + " is " + (value1+value2);
+        break;
+      case'-' :
+        document.getElementById("result").innerHTML="subraction of "+ value1 + " and " + value2 + " is " + (value1-value2);
+        break;
+      case'*' :
+        document.getElementById("result").innerHTML="product of "+ value1 + " and " + value2 + " is " + (value1*value2);
+        break;
+      case'/' :
+         document.getElementById("result").innerHTML="division of "+ value1 + " and " + value2 + " is " + (value1/value2);
+         break;
+          }
+ } 
+ 
+ 
+ function formfunction()
+ {
+    // document.getElementById("fname").innerhtml=document.getElementById("fnamer").value;
+    // document.getElementById("lname").innerhtml=document.getElementById("lnamer").value;
+    // document.getElementById("phone").innerhtml=document.getElementById("phoner").value;
+    // document.getElementById("gender").innerhtml=document.getElementById("genderr").value;
+    // document.getElementById("age").innerhtml=document.getElementById("ager").value;
+    document.getElementById("rrr").innerHTML="working";
+ }
+         
