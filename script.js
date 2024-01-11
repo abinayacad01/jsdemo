@@ -244,7 +244,6 @@ switchstmt(10,30,3);
 
 let day;
 let date1 = new Date().getDate();
-let month = new Date().getMonth() +1;
 
 switch (new Date().getDay()) {
   case 0:
@@ -270,6 +269,6 @@ switch (new Date().getDay()) {
     break;
 }
 
-console.log(day,date1,month);
+console.log(day,date1);
 
 
