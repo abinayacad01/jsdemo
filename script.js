@@ -316,7 +316,6 @@ function multioperatorfun(a)
  function formfunction()
 { 
 var fname=document.getElementById("tbfname").value;
-console.log(fname);
  document.getElementById("fnamer").innerHTML=fname;
   
  var lname=document.getElementById("tblname").value;
@@ -324,10 +323,11 @@ console.log(fname);
     
  var phone=document.getElementById("tbphone").value;
  document.getElementById("phoner").innerHTML=phone;
-    
- var gender=document.getElementById("tbgender").value;
- document.getElementById("genderr").innerHTML=gender;
-    
+ 
+ var gender = document.querySelector('input[name="gender"]:checked');
+ var gender_value = gender ? gender.value : "";
+ document.getElementById("genderr").innerHTML = gender_value;
+
  var age=document.getElementById("tbage").value;
  document.getElementById("ager").innerHTML=age;
     

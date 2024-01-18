@@ -38,7 +38,7 @@
 
     <h1>general form</h1>
 
-    
+ 
             <label for="firstname">first name :</label>
             <br>
             <input type="text " id="tbfname" name ="fname" value="">
@@ -51,10 +51,14 @@
             <br>
             <input type="text " id="tbphone" name="phone" value="">
             <br>
+            <div id="form">
             <label for="gender">gender :</label>
             <br>
-            <input type="text " id="tbgender" name="gender" value="">
+            <input type="radio" id="tbgender1" name="gender" value="female">female
+            
+            <input type="radio" id="tbgender2" name="gender" value="male">male
             <br>
+        </div>
             <label for="age">age :</label>
             <br>
             <input type="text " id="tbage" name="age" value="">
@@ -63,6 +67,7 @@
             <input type="submit" onclick="formfunction()">
             <br>
             <br>
+        
         
 
     <p id="rrr"></p>
@@ -88,11 +93,7 @@
         <td id="ager"></td>
     </tr>
 
-   </table>
-
-
-  
-
+   </table> 
 
 <script src="script.js" ></script>
 </body>
