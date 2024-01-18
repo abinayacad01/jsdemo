@@ -314,12 +314,22 @@ function multioperatorfun(a)
  
  
  function formfunction()
- {
-    // document.getElementById("fname").innerhtml=document.getElementById("fnamer").value;
-    // document.getElementById("lname").innerhtml=document.getElementById("lnamer").value;
-    // document.getElementById("phone").innerhtml=document.getElementById("phoner").value;
-    // document.getElementById("gender").innerhtml=document.getElementById("genderr").value;
-    // document.getElementById("age").innerhtml=document.getElementById("ager").value;
-    document.getElementById("rrr").innerHTML="working";
+{ 
+var fname=document.getElementById("tbfname").value;
+console.log(fname);
+ document.getElementById("fnamer").innerHTML=fname;
+  
+ var lname=document.getElementById("tblname").value;
+ document.getElementById("lnamer").innerHTML=lname;
+    
+ var phone=document.getElementById("tbphone").value;
+ document.getElementById("phoner").innerHTML=phone;
+    
+ var gender=document.getElementById("tbgender").value;
+ document.getElementById("genderr").innerHTML=gender;
+    
+ var age=document.getElementById("tbage").value;
+ document.getElementById("ager").innerHTML=age;
+    
  }
          
