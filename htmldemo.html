@@ -39,61 +39,94 @@
     <h1>general form</h1>
 
  
-            <label for="firstname">first name :</label>
-            <br>
-            <input type="text " id="tbfname" name ="fname" value="">
-            <br>
-            <label for="lname">last name :</label>
-            <br>
-            <input type="text " id="tblname" name="lname" value="">
-            <br>
-            <label for="phone">phone :</label>
-            <br>
-            <input type="text " id="tbphone" name="phone" value="">
-            <br>
-            <div id="form">
-            <label for="gender">gender :</label>
-            <br>
-            <input type="radio" id="tbgender1" name="gender" value="female">female
-            
-            <input type="radio" id="tbgender2" name="gender" value="male">male
-            <br>
-        </div>
-            <label for="age">age :</label>
-            <br>
-            <input type="text " id="tbage" name="age" value="">
-            <br>
-            <br>                                                                                        
-            <input type="submit" onclick="formfunction()">
-            <br>
-            <br>
+<label for="firstname">first name :</label>
+<br>
+<input type="text " id="tbfname" name ="fname" value="">
+<br>
+<label for="lname">last name :</label>
+<br>
+<input type="text " id="tblname" name="lname" value="">
+<br>
+<label for="phone">phone :</label>
+<br>
+<input type="text " id="tbphone" name="phone" value="">
+<br>
+<div id="form">
+<label for="gender">gender :</label>
+<br>
+<input type="radio" id="tbgender1" name="gender" value="female">female
+<input type="radio" id="tbgender2" name="gender" value="male">male
+<br>
+</div>
+<label for="age">age :</label>
+<br>
+<input type="text " id="tbage" name="age" value="">
+<br>
+message:
+<br>
+<textarea id="tbmsg" name="msg" rows="4" cols="20" placeholder="message"></textarea>
+<br>  
+<input type="date" id="tbdate" name="date" value="">
+<br>
+<br>
+<select id="mobile" >
+        <option value="oppo">oppo</option>
+      <option value="samsung">samsung</option>
+      <option value="redmi">redmi</option>
+    <option value="apple">apple</option>
+</select>
+<br>    
+<br>                                                                               
+<input type="submit" onclick="formfunction()">
+<br>
+<br>
         
         
 
-    <p id="rrr"></p>
-   <table border="1px solid balck">
-    <tr>                                                           
-        <td>first name</td>
-        <td id="fnamer"></td>
-    </tr>
-    <tr> 
-        <td>last name</td>    
-        <td id="lnamer"></td>
-    </tr>    
-    <tr>
-        <td>phone no.</td>
-        <td id="phoner"></td>
-    </tr>
-    <tr>
-        <td>gender</td>
-        <td id="genderr"></td>
-    </tr>
-    <tr>
-        <td>age</td>
-        <td id="ager"></td>
-    </tr>
+<p id="rrr"></p>
+<table border="1px solid balck">
+<tr>                                                           
+ <td>first name</td>
+ <td id="fnamer"></td>
+</tr>
+<tr> 
+ <td>last name</td>    
+ <td id="lnamer"></td>
+</tr>    
+<tr>
+ <td>phone no.</td>
+ <td id="phoner"></td>
+</tr>
+<tr>
+ <td>gender</td>
+ <td id="genderr"></td>
+</tr>
+<tr>
+ <td>age</td>
+ <td id="ager"></td>
+</tr>
+<tr>
+ <td>msg</td>
+ <td id="msgr"></td>
+</tr>
+<tr>
+   <td>dob</td>
+   <td id="dobr" ></td> 
+</tr>
+<tr>
+  <td>mobile</td>
+  <td id="mobiler"></td>
+</tr>
 
-   </table> 
+</table> 
+<br>
+<br>
+loopcheck:
+
+<input type="text" name="loopex" size="15" value="" id="loopex"/>
+<br>
+<br>
+<input type="submit" onclick="loopfun()">
 
 <script src="script.js" ></script>
 </body>

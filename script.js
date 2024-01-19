@@ -330,6 +330,43 @@ var fname=document.getElementById("tbfname").value;
 
  var age=document.getElementById("tbage").value;
  document.getElementById("ager").innerHTML=age;
-    
+
+ var msg=document.getElementById("tbmsg").value;
+ document.getElementById("msgr").innerHTML=msg;
+
+ var date=document.getElementById("tbdate").value;
+ document.getElementById("dobr").innerHTML=date;
+
+ var mobile=document.getElementById("mobile");
+ var selectedValue=mobile.value;
+ document.getElementById("mobiler").innerHTML=selectedValue;
  }
-         
+
+function loopfun()
+{
+    var inputValue=document.getElementById("loopex").value;
+    console.log(inputValue);
+
+    inputValue=Number(inputValue);
+
+
+ while(inputValue<20)
+{
+    console.log(inputValue +" inputvalue is less than 20");
+    inputValue++;
+}
+
+do{
+    console.log(inputValue + " is less than 10");
+    inputValue++;
+    
+while(inputValue<20)
+{
+         console.log(inputValue +" inputvalue is less than 20");
+         inputValue++;
+     }
+
+}
+while(inputValue<50)
+
+}
