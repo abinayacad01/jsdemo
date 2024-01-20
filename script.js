@@ -369,4 +369,80 @@ while(inputValue<20)
 }
 while(inputValue<50)
 
+  for(var inputValue=0; inputValue< 20; inputValue++)  {
+    console.log("input value in for loop  "+ m + " is smaller than 20 "); 
+  }
+
 }
+function forfunction()
+{
+    let namelist = ["abi", "mano", "gomathi", "nithya"];
+    console.log(namelist);
+    console.log("the legth is " + namelist.length);
+    console.log(namelist[1]);
+
+    for(let a=0;a<namelist.length;a++)
+        { 
+          console.log(namelist[a]);
+          console.log(a==2);
+        }
+    
+        for(let name of namelist)
+    {
+        console.log(name);
+    }
+     
+    for(let g=0;g<namelist.length;g++)
+        { 
+          console.log(namelist[g]);
+          if(g==2){
+            break;
+          }
+        }
+
+    var listofloves = { mom:"gomathi" , sis:"nithya" ,dad:"kumar" , him:"mano"};
+    console.log(listofloves);
+    console.table(listofloves);
+
+    for (let property in listofloves){
+        console.log(property + " : " + listofloves[property]);
+    }
+    
+
+}
+forfunction();
+
+function textfun()
+{
+    var text = "Hi,this is abinaya jayakumar and You can Call me abinaya";
+    console.log(text.length);
+    console.log(text.indexOf("abinaya"));
+    console.log(text.indexOf("abinaya",25));
+    console.log(text.lastIndexOf("me"));
+    console.log(text.search("abinaya"));
+    
+    let a=text.search(/You/);
+    console.log(a);
+
+    let ab=text.match(/Call/);
+    console.log(ab);
+
+    let abi=text.match(/call/gi);
+    console.log(abi);
+
+    console.log(text.slice(0,11));
+}
+textfun();
+
+function datefun(){
+       let today = new Date();
+       console.log(today);
+       console.log(today.toDateString());
+       console.log(today.toISOString());
+       console.log(today.toLocaleDateString());
+       console.log(today.toLocaleString());
+       console.log(today.toLocaleTimeString());
+       console.log(today.getHours());
+       console.log(today.getDay());
+}
+datefun();
