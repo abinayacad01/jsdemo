@@ -412,6 +412,20 @@ function forfunction()
 }
 forfunction();
 
+
+function datefun(){
+       let today = new Date();
+       console.log(today);
+       console.log(today.toDateString());
+       console.log(today.toISOString());
+       console.log(today.toLocaleDateString());
+       console.log(today.toLocaleString());
+       console.log(today.toLocaleTimeString());
+       console.log(today.getHours());
+       console.log(today.getDay());
+}
+datefun();
+
 function textfun()
 {
     var text = "Hi,this is abinaya jayakumar and You can Call me abinaya";
@@ -431,18 +445,39 @@ function textfun()
     console.log(abi);
 
     console.log(text.slice(0,11));
+     
+    var output=text.toUpperCase();
+    console.log(output);
+     
+    var output=text.toLowerCase();
+    console.log(output);
+
+    var output=text.slice(-10);
+    console.log(output);
+
+    var output=text.substring(0,4);
+    console.log(output);
+    var output=text.substring(-20);
+    console.log(output);
+     
+    var output=text.charAt(27);
+    console.log(output);
+
+    var output=text.charCodeAt(0);
+    console.log(output);
+
+    var output=text.startsWith("h ");
+    console.log(output);
+
+    var output=text.endsWith("r");
+    console.log(output);
+
+    var output=text.replace('hi', 'hiiiii');
+    console.log(output);
+
+    var output=text.replaceAll('hiiiii', 'hi');
+    console.log(output);
+
+
 }
 textfun();
-
-function datefun(){
-       let today = new Date();
-       console.log(today);
-       console.log(today.toDateString());
-       console.log(today.toISOString());
-       console.log(today.toLocaleDateString());
-       console.log(today.toLocaleString());
-       console.log(today.toLocaleTimeString());
-       console.log(today.getHours());
-       console.log(today.getDay());
-}
-datefun();
