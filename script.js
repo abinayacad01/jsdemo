@@ -478,6 +478,60 @@ function textfun()
     var output=text.replaceAll('hiiiii', 'hi');
     console.log(output);
 
+    var number="5";
+    number=number.padStart(5,"B");
+    console.log(number);
 
+    var number="5";
+    number=number.padEnd(5,"B");
+   console.log(number);
+
+
+//split
+
+   console.table(text.split(" "));
+
+    console.log(text.length);
+    var text1=text.trim();
+    console.log(text1.length);
 }
 textfun();
+
+function GetResultFun(){
+    var namelist=["karthick", "kavin", "kayal", "ragu", "mani", "harsh", "anand", "basheer"];   
+    
+    console.log(namelist);
+    console.table(namelist);
+
+    for (var a=0; a<namelist.length;a++)
+{
+    console.log(namelist[a]);
+}
+
+var result=namelist.forEach(function(name1){
+    console.log(name1);
+})
+console.log("arrow output");
+var result=namelist.forEach(name1=>console.log(name1));
+
+var listofnumbers=[1,2,3,4];
+var result=listofnumbers.map(number=>number*2);
+console.log(result);
+
+console.log(Math.PI);
+console.log(Math.E);
+console.log(2*Math.PI*2);
+var a=4.4;
+console.log(Math.round(4.4));
+console.log(Math.floor(4.5));
+console.log(Math.ceil(4.4));
+console.log(Math.sqrt(4));
+console.log(Math.pow(4,2));
+console.log(Math.floor(Math.random()*10+1000));
+console.log(Math.abs(-4.75));
+console.log(Math.floor(-4.75));
+console.log(Math.min(20,25,35,25));
+console.log(Math.max(20,25,35,25));
+
+}
+GetResultFun();
